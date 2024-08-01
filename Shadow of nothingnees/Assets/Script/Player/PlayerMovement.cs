@@ -9,8 +9,14 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public Animator anim;
     public SpriteRenderer sr;
-
+    public bool keyJerk;
     public bool faceRight = true;
+    public float jerkMove;
+
+    public bool comleteJerk;
+    public float jerkCoolDown;
+    public float stertTimerCooldown=0;
+
 
 
     void Start()
@@ -27,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
         Reflect();
         Jump();
         CheckigGround();
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            Jerk();
+        }
     }
 
     void walk()
@@ -57,12 +68,28 @@ public class PlayerMovement : MonoBehaviour
 
     public bool onGround;
     public Transform GruondCheck;
-    public float checkRadius = 0.3f;
+    public float checkRadius;
     public LayerMask Ground;
 
     void CheckigGround()
     {
         onGround = Physics2D.OverlapCircle(GruondCheck.position, checkRadius, Ground);
+        anim.SetBool("onGround", onGround);
     }
+
+    void Jerk()
+    {
+        anim.SetTrigger("keyJerk");
+        if (faceRight)
+        {
+            rb.AddForce(Vector2.right * jerkMove);
+        }
+        else if(!faceRight)
+        {
+            rb.AddForce(Vector2.left * jerkMove);
+        }
+
+    }
+
 
 }
