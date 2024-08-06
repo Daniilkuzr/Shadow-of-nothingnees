@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         Reflect();
         Jump();
         CheckigGround();
+        Fight();
     }
 
     void walk()
@@ -48,11 +49,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        if(Input.GetKeyDown(KeyCode.W) && onGround)
+        if (Input.GetKeyDown(KeyCode.W) && onGround)
         {
             //rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            anim.SetBool("onGround", onGround);
             rb.AddForce(Vector2.up * jumpForce);
         }
+        else anim.SetBool("onGround", onGround);
     }
 
     public bool onGround;
@@ -65,4 +68,12 @@ public class PlayerMovement : MonoBehaviour
         onGround = Physics2D.OverlapCircle(GruondCheck.position, checkRadius, Ground);
     }
 
+    void Fight()
+    {
+        if (Input.GetKey(KeyCode.Z))
+        {
+            anim.SetTrigger("Fight");
+        }
+        
+    }
 }
