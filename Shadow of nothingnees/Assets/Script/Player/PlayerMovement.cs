@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         Jump();
         CheckigGround();
         Fight();
+        Jerk();
     }
 
     void walk()
@@ -75,5 +76,14 @@ public class PlayerMovement : MonoBehaviour
             anim.SetTrigger("Fight");
         }
         
+    }
+
+    void Jerk()
+    {
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            rb.AddForce(Vector2.right * jumpForce);
+            anim.SetTrigger("PlayerJerk");
+        }
     }
 }
