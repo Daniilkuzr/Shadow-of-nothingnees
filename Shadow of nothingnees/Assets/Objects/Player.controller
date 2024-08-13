@@ -289,9 +289,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: onGround
     m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: PlayerJerk
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2970085980620331436}
   m_Solo: 0
@@ -415,9 +412,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0.1
   - m_ConditionMode: 1
     m_ConditionEvent: onGround
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: PlayerJerk
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8245883156065897969}
