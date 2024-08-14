@@ -16,7 +16,11 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 60358
+=======
+62312
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 62312
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -54,6 +58,7 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [19772] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 2979017276 [EditorId] 2979017276 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [19772] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 2979017276 [EditorId] 2979017276 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -65,6 +70,13 @@ Player connection [9232] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 1576
 Player connection [9232] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 1576553949 [EditorId] 1576553949 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+=======
+Player connection [9232] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 1576553949 [EditorId] 1576553949 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9232] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 1576553949 [EditorId] 1576553949 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+>>>>>>> parent of ee1db7a (Fix bag)
 Refreshing native plugins compatible for Editor in 14.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
@@ -1337,4 +1349,7 @@ Received Import Request.
 Start importing Assets/Objects/Player.controller using Guid(ceab7c62dc525c447a6d368ccc44d877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d1e3c641ed23bc94cbb5a76d7693d') in 0.083412 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 27
+<<<<<<< HEAD
+>>>>>>> parent of ee1db7a (Fix bag)
+=======
 >>>>>>> parent of ee1db7a (Fix bag)
