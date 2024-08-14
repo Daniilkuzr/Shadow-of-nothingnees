@@ -12,9 +12,6 @@ public class PlayerMovement : MonoBehaviour
 
     public bool faceRight = true;
 
-    public float timeJerk=0;
-    public float colldownJerk = 3;
-    public bool activJerk;
 
     void Start()
     {
@@ -31,14 +28,9 @@ public class PlayerMovement : MonoBehaviour
         Jump();
         CheckigGround();
         Fight();
-        //Jerk();
-        ChekingColldownJerk();
-    }
-
-    private void FixedUpdate()
-    {
         Jerk();
     }
+
     void walk()
     {
         moveVector.x = Input.GetAxis("Horizontal")*speed;
@@ -86,36 +78,12 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    void ChekingColldownJerk()
-    {
-        if(activJerk==false)
-        {
-            
-            
-            timeJerk = timeJerk + Time.deltaTime;
-            if(timeJerk>=colldownJerk)
-            {
-                activJerk = true;
-                timeJerk = 0;
-            }
-            
-        }
-    }
-
-    public bool PlayerJerk;
     void Jerk()
     {
-        if(Input.GetKey(KeyCode.LeftShift) && activJerk)
+        if(Input.GetKey(KeyCode.LeftShift))
         {
-
-            rb.AddForce(Vector2.right*100 ,ForceMode2D.Impulse);
+            rb.AddForce(Vector2.right * jumpForce);
             anim.SetTrigger("PlayerJerk");
-            activJerk = false;
         }
-
     }
-
-
-
-
 }
