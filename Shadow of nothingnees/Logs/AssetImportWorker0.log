@@ -15,11 +15,7 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< Updated upstream
 50363
-=======
-50767
->>>>>>> Stashed changes
 Successfully changed project path to: D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -53,21 +49,12 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< Updated upstream
 Player connection [5960] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 2090060907 [EditorId] 2090060907 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [5960] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 2090060907 [EditorId] 2090060907 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 746.53 ms, found 5 plugins.
-=======
-Player connection [11576] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3404878806 [EditorId] 3404878806 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [11576] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3404878806 [EditorId] 3404878806 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 1340.56 ms, found 4 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path D:/proj/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -84,16 +71,11 @@ Initialize mono
 Mono path[0] = 'D:/proj/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/proj/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/proj/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/proj/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/proj/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-<<<<<<< Updated upstream
 Registered in 0.059518 seconds.
 - Loaded All Assemblies, in  1.907 seconds
 Native extension for WindowsStandalone target not found
@@ -102,22 +84,11 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.603 seconds
 Domain Reload Profiling: 2511ms
 	BeginReloadAssembly (1144ms)
-=======
-Registered in 0.005330 seconds.
-- Loaded All Assemblies, in  0.876 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.425 seconds
-Domain Reload Profiling: 1300ms
-	BeginReloadAssembly (436ms)
->>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-<<<<<<< Updated upstream
 	RebuildCommonClasses (52ms)
 	RebuildNativeTypeToScriptingClass (18ms)
 	initialDomainReloadingComplete (175ms)
@@ -140,35 +111,10 @@ Domain Reload Profiling: 1300ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (317ms)
 			ProcessInitializeOnLoadMethodAttributes (107ms)
-=======
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (435ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (271ms)
-			TypeCache.Refresh (269ms)
-				TypeCache.ScanAssembly (248ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (425ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (361ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (69ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
->>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
-<<<<<<< Updated upstream
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
@@ -2149,7 +2095,3 @@ Received Import Request.
 Start importing Assets/Objects/Player.prefab using Guid(49d7ff6a510616543b6c2c4b71d8ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bcc8af27f9fb85a696dbfbe18a91d8') in 0.165583 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
-=======
-========================================================================
-Worker process is ready to serve import requests
->>>>>>> Stashed changes
