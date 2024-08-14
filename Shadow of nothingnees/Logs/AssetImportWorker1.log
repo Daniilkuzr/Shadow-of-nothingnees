@@ -15,7 +15,11 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< Updated upstream
 50363
+=======
+50767
+>>>>>>> Stashed changes
 Successfully changed project path to: D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +53,21 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [19752] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3355037702 [EditorId] 3355037702 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [19752] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3355037702 [EditorId] 3355037702 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 746.91 ms, found 5 plugins.
+=======
+Player connection [7480] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3124334607 [EditorId] 3124334607 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7480] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3124334607 [EditorId] 3124334607 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 1341.40 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path D:/proj/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -71,11 +84,16 @@ Initialize mono
 Mono path[0] = 'D:/proj/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/proj/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/proj/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/proj/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/proj/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.059937 seconds.
 - Loaded All Assemblies, in  1.909 seconds
 Native extension for WindowsStandalone target not found
@@ -84,11 +102,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.606 seconds
 Domain Reload Profiling: 2516ms
 	BeginReloadAssembly (1145ms)
+=======
+Registered in 0.005117 seconds.
+- Loaded All Assemblies, in  0.873 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (435ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (16ms)
 	initialDomainReloadingComplete (179ms)
@@ -111,10 +140,35 @@ Domain Reload Profiling: 2516ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (310ms)
 			ProcessInitializeOnLoadMethodAttributes (115ms)
+=======
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (67ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+<<<<<<< Updated upstream
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
@@ -2095,3 +2149,7 @@ Received Import Request.
 Start importing Assets/Objects/GroundMaterial.physicsMaterial2D using Guid(a4d170dfe9b067e40a955f827e626981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf27ff19850806ec0c87e9cb45a3e18') in 0.128769 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+=======
+========================================================================
+Worker process is ready to serve import requests
+>>>>>>> Stashed changes
