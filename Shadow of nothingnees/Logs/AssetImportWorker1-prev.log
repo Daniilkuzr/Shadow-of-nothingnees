@@ -17,7 +17,11 @@ Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 60358
+=======
+62312
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 62312
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -59,6 +63,7 @@ D:/projectgames/Shadow-of-nothingnees/Shadow of nothingnees
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [26492] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3373214777 [EditorId] 3373214777 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [26492] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 3373214777 [EditorId] 3373214777 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -70,6 +75,13 @@ Player connection [21328] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 911
 Player connection [21328] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 911838173 [EditorId] 911838173 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+=======
+Player connection [21328] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 911838173 [EditorId] 911838173 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21328] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 911838173 [EditorId] 911838173 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 Player connection [21328] Host "[IP] 26.233.62.237 [Port] 0 [Flags] 2 [Guid] 911838173 [EditorId] 911838173 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LLHT6R6L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -1294,6 +1306,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ee1db7a (Fix bag)
+=======
 >>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)

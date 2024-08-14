@@ -24,6 +24,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
   m_Title: Console
@@ -43,6 +44,10 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+  m_Title: Game
+  m_RootView: {fileID: 7}
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
   m_Title: Game
   m_RootView: {fileID: 7}
@@ -97,8 +102,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
     x: 0
@@ -181,12 +189,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
     x: 196
@@ -196,6 +207,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 150}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +232,10 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+  controlID: 85
+--- !u!114 &7
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
   controlID: 85
 --- !u!114 &7
@@ -323,6 +339,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
   controlID: 148
@@ -342,6 +359,10 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+  controlID: 82
+--- !u!114 &11
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
   controlID: 82
 --- !u!114 &11
@@ -374,6 +395,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
   controlID: 43
@@ -393,6 +415,10 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+  controlID: 83
+--- !u!114 &12
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
   controlID: 83
 --- !u!114 &12
@@ -425,6 +451,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
   controlID: 44
@@ -444,6 +471,10 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+  controlID: 84
+--- !u!114 &13
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
   controlID: 84
 --- !u!114 &13
@@ -498,6 +529,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ActualView: {fileID: 27}
 =======
 =======
@@ -524,12 +556,17 @@ MonoBehaviour:
   m_ActualView: {fileID: 27}
   m_Panes:
 >>>>>>> parent of ee1db7a (Fix bag)
+=======
+  m_ActualView: {fileID: 27}
+  m_Panes:
+>>>>>>> parent of ee1db7a (Fix bag)
   - {fileID: 23}
   - {fileID: 21}
   - {fileID: 27}
   m_Selected: 2
   m_LastSelected: 2
 --- !u!114 &15
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of ee1db7a (Fix bag)
 <<<<<<< HEAD
@@ -539,6 +576,8 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
 MonoBehaviour:
@@ -558,6 +597,7 @@ MonoBehaviour:
     x: 0
     y: 577
     width: 1514
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,11 +650,21 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 24}
   m_Panes:
+=======
+    height: 370
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 24}
+  m_Panes:
+>>>>>>> parent of ee1db7a (Fix bag)
   - {fileID: 25}
   - {fileID: 24}
   m_Selected: 1
   m_LastSelected: 1
 --- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> parent of ee1db7a (Fix bag)
+=======
 >>>>>>> parent of ee1db7a (Fix bag)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -636,6 +686,7 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,6 +720,12 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+  m_ActualView: {fileID: 26}
+  m_Panes:
+  - {fileID: 26}
+  - {fileID: 19}
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
   m_ActualView: {fileID: 26}
   m_Panes:
@@ -715,9 +772,12 @@ MonoBehaviour:
     m_IsLocked: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSelectedObjectID: 46660
 --- !u!114 &15
 =======
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
   m_LastSelectedObjectID: 28844
@@ -760,6 +820,9 @@ MonoBehaviour:
   m_LastSelectedObjectID: 28844
 --- !u!114 &19
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of ee1db7a (Fix bag)
+=======
 >>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -836,6 +899,7 @@ MonoBehaviour:
     m_LastClickedID: 12830
     m_ExpandedIDs: 000000009e710000
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of ee1db7a (Fix bag)
 <<<<<<< HEAD
 =======
@@ -850,6 +914,8 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
     m_RenameOverlay:
@@ -884,6 +950,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
     m_ExpandedIDs: 00000000ceb60000
@@ -899,6 +966,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+    m_ExpandedIDs: 000000009e710000
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     m_ExpandedIDs: 000000009e710000
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -1054,6 +1124,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 343
 =======
     height: 536
@@ -1064,6 +1135,9 @@ MonoBehaviour:
 =======
     height: 343
 >>>>>>> parent of eef0bba (m)
+=======
+    height: 343
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     height: 343
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -1443,6 +1517,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
     m_Target: {x: 0.9360075, y: -1.7778106, z: -0.015607609}
@@ -1466,6 +1541,11 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+    m_Target: {x: 0.4373929, y: -1.653515, z: 0.01821895}
+    speed: 2
+    m_Value: {x: 0.4373929, y: -1.653515, z: 0.01821895}
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     m_Target: {x: 0.4373929, y: -1.653515, z: 0.01821895}
     speed: 2
@@ -1525,6 +1605,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
     m_Target: 2.3390312
@@ -1548,6 +1629,11 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+    m_Target: 2.5131602
+    speed: 2
+    m_Value: 2.5131602
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     m_Target: 2.5131602
     speed: 2
@@ -1621,6 +1707,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
       m_ExpandedIDs: 6c42ffff44b60000
@@ -1636,6 +1723,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+      m_ExpandedIDs: fefaffff
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
       m_ExpandedIDs: fefaffff
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -1666,6 +1756,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &23
 =======
 --- !u!114 &19
@@ -1676,6 +1767,9 @@ MonoBehaviour:
 =======
 --- !u!114 &23
 >>>>>>> parent of eef0bba (m)
+=======
+--- !u!114 &23
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 --- !u!114 &23
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -1765,6 +1859,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
     - Assets/Objects/27.07.2024
@@ -1780,6 +1875,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+    - Assets/Objects/31.07.2024
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     - Assets/Objects/31.07.2024
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -1795,6 +1893,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
   - Assets/Objects/27.07.2024
@@ -1813,12 +1912,16 @@ MonoBehaviour:
 =======
   - Assets/Objects/31.07.2024
 >>>>>>> parent of ee1db7a (Fix bag)
+=======
+  - Assets/Objects/31.07.2024
+>>>>>>> parent of ee1db7a (Fix bag)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\projectgames\Shadow-of-nothingnees\Shadow of nothingnees
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1847,6 +1950,11 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+    m_SelectedIDs: 66730000
+    m_LastClickedID: 29542
+    m_ExpandedIDs: 000000009e7100005c730000
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     m_SelectedIDs: 66730000
     m_LastClickedID: 29542
@@ -1884,6 +1992,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
     m_ExpandedIDs: 00000000ceb60000
@@ -1899,6 +2008,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+    m_ExpandedIDs: 000000009e710000
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
     m_ExpandedIDs: 000000009e710000
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -1930,6 +2042,7 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000028770000a07a000048790000aa7b0000127d0000207d0000c07100006c710000667100003e6f0000ac710000b4710000e06f000052740000ce710000a6740000e26e0000b06e000052720000288a0000308a000072720000b2840000327a00001a7c0000927d0000648500008a7d0000b27d000000000000963300009e330000c68f0000c28f0000067200003072000026720000ca73000040b700001eb7000070b70000
 <<<<<<< HEAD
@@ -1938,6 +2051,8 @@ MonoBehaviour:
 =======
 >>>>>>> parent of eef0bba (m)
 =======
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
     m_HadKeyboardFocusLastEvent: 0
@@ -1982,6 +2097,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
 --- !u!114 &20
@@ -1997,6 +2113,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+--- !u!114 &25
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 --- !u!114 &25
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -2038,6 +2157,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
 --- !u!114 &21
@@ -2053,6 +2173,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+--- !u!114 &26
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 --- !u!114 &26
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -2107,6 +2230,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of eef0bba (m)
 --- !u!114 &22
@@ -2122,6 +2246,9 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+--- !u!114 &27
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 --- !u!114 &27
 >>>>>>> parent of ee1db7a (Fix bag)
@@ -2207,6 +2334,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e6db5b7 (m)
 =======
@@ -2225,10 +2353,13 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
       width: 959
       height: 336
     m_Scale: {x: 0.33707932, y: 0.33707935}
     m_Translation: {x: 479.50003, y: 173.93909}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of ee1db7a (Fix bag)
 <<<<<<< HEAD
@@ -2240,12 +2371,15 @@ MonoBehaviour:
 >>>>>>> parent of eef0bba (m)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2269,10 +2403,13 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
       x: -1422.5139
       y: -516.01825
       width: 2845.0278
       height: 996.798
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of ee1db7a (Fix bag)
 <<<<<<< HEAD
@@ -2282,6 +2419,8 @@ MonoBehaviour:
 >>>>>>> parent of e6db5b7 (m)
 =======
 >>>>>>> parent of eef0bba (m)
+=======
+>>>>>>> parent of ee1db7a (Fix bag)
 =======
 >>>>>>> parent of ee1db7a (Fix bag)
     m_MinimalGUI: 1
